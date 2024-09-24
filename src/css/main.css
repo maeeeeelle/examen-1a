@@ -12,3 +12,56 @@ img,
 video {
   display: block;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.section {
+  background: #8ecae6;
+  padding: 50px 0px;
+  display: flex;
+}
+
+.boite {
+  border: 1px solid #146c81;
+  background: #219ebc;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px; /* 100% */
+  padding: 35px;
+}
+
+.section-1 .boite {
+  width: 50%;
+}
+
+.section-2 {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.section-3 {
+  justify-content: space-between;
+}
+
+.section-4 {
+  height: 500px;
+  align-items: flex-end;
+  gap: 20px;
+  padding: 50px;
+  justify-content: flex-end;
+}
+
+.section-5 {
+  flex-wrap: wrap;
+}
+.section-5 .boite {
+  width: 50%;
+}
